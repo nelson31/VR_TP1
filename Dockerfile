@@ -14,7 +14,6 @@ COPY myapps /apache-tomcat-9.0.43/webapps/
 CMD apache-tomcat-9.0.43/bin/startup.sh && tail -f apache-tomcat-9.0.43/logs/catalina.out
 
 # Criacao do volume
-
 VOLUME /home/p7-vol
 
 # Expor a porta default do tomcat
